@@ -8,7 +8,7 @@ function x(n) { return n }           // A Normal Function
 
 console.log(x(function y() { }))    // 'y' is a Callback Function : A callback is a function which is passed to an another function(generally a async function) which can be called back when the function it is passed to is called!
 
-// Event Listeners 
+// Event Listeners : Event Listeners takes a callback as a handler and handles it over a event for example say a 'click'. Event Listeners have a memory allocated to it in the WEB_API Registor which is not freed implicitly by GC. 
 
 function EventListeners() {
     let count = 0
