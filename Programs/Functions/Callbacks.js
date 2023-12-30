@@ -19,3 +19,7 @@ function EventListeners() {
 }
 
 EventListeners()
+
+// Problems with Callbacks:
+   //  - CallBack Hell
+   //  - Inversion of Control
